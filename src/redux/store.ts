@@ -5,7 +5,7 @@ export const store = configureStore({
   reducer: {
     counter: counterSlice,
   },
-  devTools: false,
+  devTools: true,
 });
 
 console.log(store.getState());
